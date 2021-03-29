@@ -1,0 +1,24 @@
+{
+  "name": "deploy-and-auth-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagasawaaaa/deploy-and-auth-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagasawaaaa/deploy-and-auth-test/issues"
+  },
+  "homepage": "https://github.com/nagasawaaaa/deploy-and-auth-test#readme",
+  "private": "true",
+  "dependencies": {
+    "safe-compare": "^1.1.4",
+    "static-auth": "^2.0.0"
+  }
+}
