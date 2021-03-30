@@ -5,7 +5,7 @@ const USER_NAME = process.env.USER_NAME || 'admin'; // プロジェクトの環�
 const PASSWORD = process.env.PASSWORD || 'admin';
 
 const app = protect(
-  '/',
+  '/children',
   (username, password) => safeCompare(username, USER_NAME) && safeCompare(password, PASSWORD), // timing attack 対策
   {
     directory: `${__dirname}/public`, // public 配下のファイルを静的コンテンツとして配信する
